@@ -1,8 +1,9 @@
 # linktree-clone
 
-## HTML Color Shades 
-
-<https://www.w3schools.com/colors/colors_shades.asp>
+[![CodeQL](https://github.com/milliorn/linktree-clone/actions/workflows/codeql.yml/badge.svg)](https://github.com/milliorn/linktree-clone/actions/workflows/codeql.yml)
+[![Dependency Review](https://github.com/milliorn/linktree-clone/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/milliorn/linktree-clone/actions/workflows/dependency-review.yml)
+[![Lint Code Base](https://github.com/milliorn/linktree-clone/actions/workflows/super-linter.yml/badge.svg)](https://github.com/milliorn/linktree-clone/actions/workflows/super-linter.yml)
+[![OSSAR](https://github.com/milliorn/linktree-clone/actions/workflows/ossar.yml/badge.svg)](https://github.com/milliorn/linktree-clone/actions/workflows/ossar.yml)
 
 ## Twitter SVG 
 
