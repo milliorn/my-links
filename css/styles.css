@@ -43,6 +43,11 @@ header {
   width: 40px;
 }
 
+.share-button svg {
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
 .container {
   align-items: center;
   display: flex;
@@ -92,4 +97,9 @@ header {
   height: 40px;
   margin: 8px;
   width: 40px;
+}
+
+.tile-share-button svg {
+  margin-left: 12px;
+  margin-top: 12px;
 }
