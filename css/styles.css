@@ -1,0 +1,132 @@
+a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+body {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #080808;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  max-width: 788px;
+  padding: 12px;
+  width: 95%;
+}
+
+.share-button {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  height: 40px;
+  margin-right: 1rem;
+  width: 40px;
+}
+
+.share-button svg {
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.share-button:hover {
+  cursor: pointer;
+  background: #555;
+  transform: scale(1.02);
+  transition: cubic-bezier(0.08, 0.59, 0.29, 0.99) 1000ms;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  max-width: 680px;
+  width: 91%;
+}
+
+.icon {
+  height: 44px;
+  margin: 4px 8px;
+  width: 44px;
+}
+
+.image-container {
+  border-radius: 48px;
+  height: 96px;
+  overflow: hidden;
+  width: 96px;
+}
+
+.image-container img {
+  border-radius: 50%;
+  display: block;
+  filter: none;
+  height: 96px;
+  object-fit: contain;
+  object-position: initial;
+  width: 96px;
+}
+
+.tile {
+  background-color: #282828;
+  border-radius: 17px;
+  color: inherit;
+  display: flex;
+  height: 56px;
+  hyphens: auto;
+  justify-content: space-between;
+  margin: 7px;
+  max-width: 768px;
+  overflow-wrap: break-word;
+  white-space: normal;
+  width: 90%;
+  word-break: break-word;
+}
+
+.tile-share-button {
+  background-color: #303030;
+  border-radius: 20px;
+  height: 40px;
+  margin: 8px;
+  width: 40px;
+}
+
+.tile-share-button svg {
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.tile-share-button:hover {
+  cursor: pointer;
+  background: #555;
+  transform: scale(1.02);
+  transition: cubic-bezier(0.08, 0.59, 0.29, 0.99) 1000ms;
+}
+
+.tile:hover {
+  background: #111;
+  transform: scale(1.02);
+  transition: cubic-bezier(0.08, 0.59, 0.29, 0.99) 1000ms;
+}
