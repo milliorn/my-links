@@ -21,11 +21,11 @@ h1 {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
+  margin: 16px;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin: 16px;
 }
 
 header {
@@ -35,26 +35,6 @@ header {
   max-width: 788px;
   padding: 12px;
   width: 95%;
-}
-
-.share-button {
-  background-color: #f0f0f0;
-  border-radius: 20px;
-  height: 40px;
-  margin-right: 1rem;
-  width: 40px;
-}
-
-.share-button svg {
-  margin-left: 12px;
-  margin-top: 12px;
-}
-
-.share-button:hover {
-  cursor: pointer;
-  background: #555;
-  transform: scale(1.02);
-  transition: cubic-bezier(0.08, 0.59, 0.29, 0.99) 1000ms;
 }
 
 .container {
@@ -72,13 +52,6 @@ header {
   width: 44px;
 }
 
-.image-container {
-  border-radius: 48px;
-  height: 96px;
-  overflow: hidden;
-  width: 96px;
-}
-
 .image-container img {
   border-radius: 50%;
   display: block;
@@ -87,6 +60,21 @@ header {
   object-fit: contain;
   object-position: initial;
   width: 96px;
+}
+
+.image-container {
+  border-radius: 48px;
+  height: 96px;
+  overflow: hidden;
+  width: 96px;
+}
+
+.share-button {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  height: 40px;
+  margin-right: 1rem;
+  width: 40px;
 }
 
 .tile {
@@ -113,20 +101,22 @@ header {
   width: 40px;
 }
 
+.tile:hover {
+  background: #111;
+  transform: scale(1.02);
+  transition: cubic-bezier(0.08, 0.59, 0.29, 0.99) 1000ms;
+}
+
+.share-button svg,
 .tile-share-button svg {
   margin-left: 12px;
   margin-top: 12px;
 }
 
+.share-button:hover,
 .tile-share-button:hover {
-  cursor: pointer;
   background: #555;
-  transform: scale(1.02);
-  transition: cubic-bezier(0.08, 0.59, 0.29, 0.99) 1000ms;
-}
-
-.tile:hover {
-  background: #111;
+  cursor: pointer;
   transform: scale(1.02);
   transition: cubic-bezier(0.08, 0.59, 0.29, 0.99) 1000ms;
 }
