@@ -1,6 +1,6 @@
 a {
-  text-decoration: none;
   color: #f0f0f0;
+  text-decoration: none;
 }
 
 body {
@@ -16,15 +16,15 @@ body {
 }
 
 h1 {
-  margin: 0px;
   color: rgb(255, 255, 255);
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.5;
-  text-overflow: ellipsis;
+  margin: 0px;
   max-width: 100%;
-  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 header {
@@ -52,31 +52,44 @@ header {
   width: 91%;
 }
 
+.icon {
+  height: 44px;
+  margin: 4px 8px;
+  width: 44px;
+}
+
 .image-container {
-  height: 96px;
-  width: 96px;
   border-radius: 48px;
+  height: 96px;
   overflow: hidden;
+  width: 96px;
 }
 
 .image-container img {
   border-radius: 50%;
-  width: 96px;
-  height: 96px;
   display: block;
+  filter: none;
+  height: 96px;
   object-fit: contain;
   object-position: initial;
-  filter: none;
+  width: 96px;
 }
 
 .tile {
-  margin-top: 32px;
-  width: 100%;
-  height: 56px;
   background-color: #282828;
-  margin: 7px;
   border-radius: 17px;
+  display: flex;
   height: 56px;
   justify-content: space-between;
-  display: flex;
+  margin-top: 32px;
+  margin: 7px;
+  width: 100%;
+}
+
+.tile-share-button {
+  background-color: #303030;
+  border-radius: 20px;
+  height: 40px;
+  margin: 8px;
+  width: 40px;
 }
