@@ -1,3 +1,4 @@
+const shareButton = document.querySelector(".share-button");
 const shareButtons = document.querySelectorAll(".tile-share-button");
 
 // console.log(shareButtons)
@@ -16,6 +17,8 @@ async function copyText(e) {
 }
 
 // add click events for each share button
+shareButton.addEventListener("click", copyText);
+
 shareButtons.forEach((shareButton) =>
   shareButton.addEventListener("click", copyText)
 );
