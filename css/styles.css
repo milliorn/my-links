@@ -37,8 +37,11 @@ header {
 
 .tile {
   width: 100%;
+  height: 56px;
   background-color: #282828;
   margin: 7px;
   border-radius: 17px;
   height: 56px;
+  justify-content: space-between;
+  display: flex;
 }
