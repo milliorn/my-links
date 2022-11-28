@@ -78,9 +78,9 @@ html {
 
 .image-container {
   border-radius: 48px;
-  height: 96px;
+  height: 6rem;
   overflow: hidden;
-  width: 96px;
+  width: 6rem;
 }
 
 .share-button {
