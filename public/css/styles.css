@@ -93,14 +93,14 @@ html {
 
 .tile {
   background-color: #282828;
-  border-radius: 17px;
+  border-radius: 1rem;
   color: inherit;
   display: flex;
-  height: 56px;
+  height: 3.5rem;
   hyphens: auto;
   justify-content: space-between;
-  margin: 7px;
-  max-width: 768px;
+  margin: 0.5rem;
+  max-width: 48rem;
   overflow-wrap: break-word;
   white-space: normal;
   width: 90%;
