@@ -55,15 +55,15 @@ html {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 10px;
-  max-width: 680px;
+  margin: 0.625rem;
+  max-width: 42rem;
   width: 91.666667%;
 }
 
 .icon {
-  height: 44px;
-  margin: 4px 8px;
-  width: 44px;
+  height: 2.75rem;
+  margin: 0.25rem 0.5rem;
+  width: 2.75rem;
 }
 
 .image-container img {
