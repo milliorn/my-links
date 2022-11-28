@@ -20,5 +20,4 @@ async function copyText(e) {
 shareButton.addEventListener("click", copyText);
 
 shareButtons.forEach((shareButton) =>
-  shareButton.addEventListener("click", copyText)
-);
+                         shareButton.addEventListener("click", copyText));
