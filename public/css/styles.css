@@ -85,10 +85,10 @@ html {
 
 .share-button {
   background-color: #f0f0f0;
-  border-radius: 20px;
-  height: 40px;
+  border-radius: 1.25rem;
+  height: 2.5rem;
   margin-right: 1rem;
-  width: 40px;
+  width: 2.5rem;
 }
 
 .tile {
