@@ -5,14 +5,28 @@
 [![Lint Code Base](https://github.com/milliorn/linktree-clone/actions/workflows/super-linter.yml/badge.svg)](https://github.com/milliorn/linktree-clone/actions/workflows/super-linter.yml)
 [![OSSAR](https://github.com/milliorn/linktree-clone/actions/workflows/ossar.yml/badge.svg)](https://github.com/milliorn/linktree-clone/actions/workflows/ossar.yml)
 
-## Twitter SVG 
+## SVG
 
-<https://fontawesomeicons.com/svg/icons/twitter-logo-light>
+<https://fontawesomeicons.com/svg/icons/>
 
-## Youtube SVG 
+## CLI Commands
 
-<https://fontawesomeicons.com/svg/icons/youtube-logo-light>
+* `npm install`: Installs dependencies
 
-## Github SVG 
+* `npm run dev`: Run a development, HMR server
 
-<https://fontawesomeicons.com/svg/icons/github-logo-light>
+* `npm run serve`: Run a production-like server
+
+* `npm run build`: Production-ready build
+
+* `npm run lint`: Pass TypeScript files using ESLint
+
+* `npm run test`: Run Jest and Enzyme with
+    [`enzyme-adapter-preact-pure`](https://github.com/preactjs/enzyme-adapter-preact-pure) for
+    your tests
+
+For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+
+## Source
+
+<https://github.com/preactjs-templates/typescript>
