@@ -7,4 +7,4 @@
 
 ## SVG
 
-<https://fontawesomeicons.com/svg/icons/twitter-logo-light>
+<https://fontawesomeicons.com/svg/icons/
