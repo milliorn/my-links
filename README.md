@@ -7,4 +7,4 @@
 
 ## SVG
 
-<https://fontawesomeicons.com/svg/icons/
+https://fontawesomeicons.com/svg/icons/
