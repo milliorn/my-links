@@ -2,7 +2,7 @@ import { h } from "preact";
 
 const Header = () => (
   <header>
-    <div class="share-button" id="https://milliorn.github.io/linktree-clone/">
+    <div className="share-button" id="https://milliorn.github.io/linktree-clone/">
       <svg
         width="16"
         height="16"
