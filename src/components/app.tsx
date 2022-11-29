@@ -3,8 +3,11 @@ import Container from "./container";
 import Header from "./header";
 import ShareTileButton from "./svg/ShareTileButton";
 import { tileData } from "./tileData";
+import { v4 as uuidv4 } from "uuid";
 
-function App() {
+// App Component
+function App(): h.JSX.Element {
+  // onClick event handler
   async function handleClick(e: MouseEvent): Promise<void> {
     e.preventDefault();
     const currentTarget = e.currentTarget as HTMLElement;
@@ -23,9 +26,9 @@ function App() {
       <Header handleClick={handleClick} />
       <Container />
       <h1>@scottmilliorn</h1>
-      {tileData.map((tile, i) => (
+      {tileData.map((tile) => (
         <a
-          key={i}
+          key={uuidv4()}
           className="tile"
           href={tile.href}
           target="_blank"
