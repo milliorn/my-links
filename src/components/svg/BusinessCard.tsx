@@ -1,6 +1,6 @@
 import { h } from "preact";
 
-export function BusinessCard(): h.JSX.Element {
+export default function BusinessCard(): h.JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
       <rect width="256" height="256" fill="none" />

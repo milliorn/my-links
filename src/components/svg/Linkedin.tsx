@@ -1,6 +1,6 @@
 import { h } from "preact";
 
-export function Linkedin(): h.JSX.Element {
+export default function Linkedin(): h.JSX.Element {
   return (
     <svg
       style="color: white"

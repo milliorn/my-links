@@ -1,6 +1,6 @@
 import { h } from "preact";
 
-const Container = () => {
+function Container() {
   return (
     <div className="container">
       <div className="image-container">
@@ -8,6 +8,6 @@ const Container = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Container;

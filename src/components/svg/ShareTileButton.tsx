@@ -1,6 +1,6 @@
 import { h } from "preact";
 
-export function ShareTileButton(): h.JSX.Element {
+export default function ShareTileButton(): h.JSX.Element {
   return <svg
     width="16"
     height="16"
