@@ -1,5 +1,6 @@
 import { h } from "preact";
 
+// Github SVG
 export default function Github(): h.JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
