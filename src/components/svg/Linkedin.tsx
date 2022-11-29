@@ -2,9 +2,10 @@ import { h } from "preact";
 
 // Linkedin SVG
 export default function Linkedin(): h.JSX.Element {
+  const styles = { color: "white" };
   return (
     <svg
-      style="color: white"
+      style={styles}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 448 512"
     >
