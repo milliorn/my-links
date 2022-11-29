@@ -4,7 +4,9 @@ import Header from "./header";
 import ShareTileButton from "./svg/ShareTileButton";
 import { tileData } from "./tileData";
 
-function App() {
+// App Component
+function App(): h.JSX.Element {
+  // onClick event handler
   async function handleClick(e: MouseEvent): Promise<void> {
     e.preventDefault();
     const currentTarget = e.currentTarget as HTMLElement;

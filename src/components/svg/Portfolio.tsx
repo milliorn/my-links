@@ -1,5 +1,6 @@
 import { h } from "preact";
 
+// Portfolio SVG
 export default function Portfolio(): h.JSX.Element {
   return (
     <svg

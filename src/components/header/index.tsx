@@ -1,5 +1,6 @@
 import { h } from "preact";
 
+// Header index
 export default function Header(props: {
   handleClick: h.JSX.MouseEventHandler<HTMLDivElement> | undefined;
 }): h.JSX.Element {

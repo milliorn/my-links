@@ -1,6 +1,7 @@
 import { h } from "preact";
 
-function Container() {
+// Container
+function Container(): h.JSX.Element {
   return (
     <div className="container">
       <div className="image-container">
