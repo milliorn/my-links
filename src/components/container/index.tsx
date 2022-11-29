@@ -4,7 +4,7 @@ function Container() {
   return (
     <div className="container">
       <div className="image-container">
-        <img src="../../assets/profile.jpg" alt="Scott Milliorn" />
+        <img src="../../assets/profile.webp" alt="Scott Milliorn" />
       </div>
     </div>
   );
