@@ -1,6 +1,6 @@
 import { Fragment, h } from "preact";
 import Container from "./container";
-import { Header } from "./header";
+import Header from "./header";
 import ShareTileButton from "./svg/ShareTileButton";
 import { tileData } from "./tileData";
 

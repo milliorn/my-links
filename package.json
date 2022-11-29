@@ -3,6 +3,7 @@
   "name": "linktree-clone",
   "version": "0.0.0",
   "license": "MIT",
+  "description": "linktree clone featuring all my work.",
   "scripts": {
     "build": "preact build",
     "serve": "sirv build --cors --single",

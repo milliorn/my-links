@@ -1,6 +1,7 @@
 {
   "name": "linktree",
   "short_name": "linktree",
+  "description": "linktree clone featuring all my work.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

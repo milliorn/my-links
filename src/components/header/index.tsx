@@ -1,13 +1,14 @@
 import { h } from "preact";
 
-export function Header(props: { handleClick: MouseEvent; }): h.JSX.Element {
-  const {handleClick} = props;
+export default function Header(props: {
+  handleClick: h.JSX.MouseEventHandler<HTMLDivElement> | undefined;
+}): h.JSX.Element {
   return (
     <header>
       <div
         className="share-button"
         id="https://milliorn.github.io/linktree-clone/"
-        onClick={handleClick}
+        onClick={props.handleClick}
       >
         <svg
           width="16"
