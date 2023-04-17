@@ -31,7 +31,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@types/enzyme": "^3.10.12",
+    "@types/enzyme": "^3.10.13",
     "@types/jest": "^29.5.0",
     "@types/uuid": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
