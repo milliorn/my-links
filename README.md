@@ -1,7 +1,6 @@
 # linktree-clone
 
 ![Vercel](https://vercelbadge.vercel.app/api/milliorn/linktree-clone)
-[![Dependency Review](https://github.com/milliorn/linktree-clone/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/milliorn/linktree-clone/actions/workflows/dependency-review.yml)
 
 This repository contains the code for a Linktree Clone web application. The Linktree Clone allows users to create a simple landing page with multiple links to their social media profiles, websites, or any other URLs they want to share.
 
