@@ -1,5 +1,4 @@
 import { h } from "preact";
-import BusinessCard from "./svg/BusinessCard";
 import Csv from "./svg/Csv";
 import Github from "./svg/Github";
 import Linkedin from "./svg/Linkedin";
@@ -13,14 +12,9 @@ export const tileData = [
     p: "Resume | CSV",
   },
   {
-    href: "https://milliorn.github.io/Portfolio/",
+    href: "https://milliorn.xyz/",
     svg: <Portfolio />,
     p: "Portfolio",
-  },
-  {
-    href: "https://milliorn.github.io/Digital-Business-Card/",
-    svg: <BusinessCard />,
-    p: "Business Card",
   },
   {
     href: "https://www.linkedin.com/in/scott-milliorn/",

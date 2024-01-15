@@ -3,7 +3,7 @@
   "name": "linktree-clone",
   "version": "0.0.0",
   "license": "MIT",
-  "homepage": "http://milliorn.github.io/linktree-clone",
+  "homepage": "http://milliorn.github.io/my-links",
   "description": "linktree clone featuring all my work.",
   "scripts": {
     "build": "preact build",
