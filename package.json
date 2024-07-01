@@ -6,6 +6,7 @@
   "homepage": "http://milliorn.github.io/my-links",
   "description": "linktree clone featuring all my work.",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "build": "preact build",
     "serve": "sirv build --cors --single",
     "dev": "preact watch",
@@ -52,5 +53,8 @@
       "<rootDir>/tests/__mocks__/browserMocks.ts",
       "<rootDir>/tests/__mocks__/setupTests.ts"
     ]
+  },
+  "resolutions": {
+    "typescript": "4.9.5"
   }
 }
