@@ -28,12 +28,12 @@
     "preact-router": "^4.0.0",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat",
-    "uuid": "^9.0.1"
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/enzyme": "^3.10.16",
     "@types/jest": "^29.5.12",
-    "@types/uuid": "^9.0.8",
+    "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^7.14.1",
     "@typescript-eslint/parser": "^7.14.1",
     "enzyme": "^3.11.0",
